@@ -4,7 +4,7 @@ export const siteConfig = {
     role: "Machine Learning & Data Engineer",
     tagline: "I build scalable data pipelines & ML systems that drive real impact.",
     location: "San Jose, CA",
-    email: "your_email@example.com",
+    email: "srugm25@example.com",
     socials: {
     linkedin: "https://www.linkedin.com/in/srushti-gm/",
     github: "https://github.com/srushtigm25",
@@ -27,7 +27,7 @@ export const siteConfig = {
     "Explainable GNN for sepsis mortality prediction (MIMIC-IV), +AUC vs baselines, SHAP explainability, Gradio UI.",
     tech: ["PyTorch", "GNN", "Transformers", "SHAP", "Python"],
     link: "https://github.com/srushtigm25/SepsisNet",
-    image: "/images/sepsis-gnn.png"
+    image: "/images/sepsis-gnn.jpeg"
     },
     {
     title: "DataFlowX (Modern ELT)",
@@ -35,7 +35,7 @@ export const siteConfig = {
     "dbt + Snowflake + Airflow + Docker; CI/CD, tests, snapshots, docs; modular models and data quality checks.",
     tech: ["dbt", "Snowflake", "Airflow", "Docker"],
     link: "https://github.com/srushtigm25/DataFlowX-Modern-ELT-Pipeline-with-dbt-Snowflake-Airflow",
-    image: "/images/dataflowx.png"
+    image: "/images/dataflowx.jpeg"
     },
     {
     title: "EventFlow (Serverless ETL)",
@@ -43,8 +43,40 @@ export const siteConfig = {
     "S3→Lambda→Glue→Athena serverless ingestion with cost dashboards & alerts (CloudWatch).",
     tech: ["AWS S3", "Lambda", "Glue", "Athena"],
     link: "https://github.com/srushtigm25/EventFlow-AWS-Serverless-ETL-with-S3-Lambda-Glue-Athena",
-    image: "/images/eventflow.png"
-    }
+    image: "/images/eventflow.jpeg"
+    },
+    {
+    title: "LLM Video Understanding Agent",
+    description:
+    "Multimodal LLM-RAG pipeline that analyzes raw videos to extract scenes, emotions, narrative beats, and outputs timestamped JSON edit/story plans. Includes Shotstack automation, evaluation harness, and serverless orchestration.",
+    tech: ["LLM", "RAG", "LangChain", "memories.ai", "Python", "Shotstack", "S3", "SQS"],
+    link: "https://github.com/srushtigm25/LLM-Video-Understanding-Auto-Editing-Agent",
+    image: "/images/video-agent.png"
+    },
+    {
+    title: "RAG Application (PDF Q&A System)",
+    description:
+    "End-to-end Retrieval-Augmented Generation pipeline for PDF insights. Includes PDF parsing, text chunking, OpenAI embeddings, Chroma vector store, LangChain retriever, and a Streamlit UI with Docker support.",
+    tech: ["LangChain", "ChromaDB", "OpenAI", "Streamlit", "Docker", "Python"],
+    link: "https://github.com/srushtigm25/RAG_Application",
+    image: "/images/rag-app.jpeg"
+    },
+    {
+    title: "Chatbot with Google Sheets Integration",
+    description:
+    "AI chatbot using GPT-4 + Google Sheets API for real-time spreadsheet-aware responses. Built with Tkinter UI, supports live queries, error handling, and full Google API authentication workflow.",
+    tech: ["Python", "GPT-4", "Google Sheets API", "gspread", "Tkinter"],
+    link: "https://github.com/srushtigm25/Chatbot-with-Google-Sheets-Integration",
+    image: "/images/google-sheets-chatbot.jpeg"
+      },
+      {
+        title: "AWS Serverless Event-Driven App",
+        description:
+          "Event-driven workflow using AWS Lambda, SQS, and DynamoDB. Processes queued messages, triggers Lambda functions, and stores structured results into DynamoDB. Demonstrates scalable serverless microservice design.",
+        tech: ["AWS Lambda", "SQS", "DynamoDB", "Python", "Serverless"],
+        link: "https://github.com/srushtigm25/aws-serverless-event-driven-app",
+        image: "/images/aws-serverless.jpeg"
+      },
     ];
     
     
@@ -70,7 +102,7 @@ export const siteConfig = {
     {
     company: "CSU Sacramento (RA/TA)",
     role: "Graduate Research/Teaching Assistant",
-    period: "2024 – 2025",
+    period: "Aug 2024 – May 2025",
     bullets: [
     "Sepsis-GNN research on MIMIC-IV; explainability (SHAP) & interactive Gradio UI.",
     "Supported deep learning coursework & project mentorship (GNNs/Transformers)."
