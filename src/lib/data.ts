@@ -13,11 +13,32 @@ export const siteConfig = {
     };
     
     
+    // export const skills = [
+    // "Python", "SQL", "PySpark", "Airflow", "dbt", "Snowflake",
+    // "AWS (S3, Lambda, Glue, Athena)", "Kafka", "Spark",
+    // "LangChain", "RAG", "GNNs", "Transformers"
+    // ];
+
     export const skills = [
-    "Python", "SQL", "PySpark", "Airflow", "dbt", "Snowflake",
-    "AWS (S3, Lambda, Glue, Athena)", "Kafka", "Spark",
-    "LangChain", "RAG", "GNNs", "Transformers"
-    ];
+        // Languages
+        "Python", "Java", "SQL",
+      
+        // Data Engineering
+        "PySpark", "Airflow", "dbt", "Snowflake", "Kafka", "Spark",
+      
+        // AI / ML
+        "PyTorch", "LangChain", "RAG", "Transformers",
+      
+        // Cloud
+        "AWS",
+      
+        // DevOps
+        "Docker", "Git",
+      
+        // Analytics
+        "Pandas", "Tableau", "Power BI"
+      ];
+      
     
     
     export const projects = [
@@ -26,6 +47,7 @@ export const siteConfig = {
     description:
     "Explainable GNN for sepsis mortality prediction (MIMIC-IV), +AUC vs baselines, SHAP explainability, Gradio UI.",
     tech: ["PyTorch", "GNN", "Transformers", "SHAP", "Python"],
+    categories: ["Python","Machine Learning"],
     link: "https://github.com/srushtigm25/SepsisNet",
     image: "/images/sepsis-gnn.jpeg"
     },
@@ -34,6 +56,7 @@ export const siteConfig = {
     description:
     "dbt + Snowflake + Airflow + Docker; CI/CD, tests, snapshots, docs; modular models and data quality checks.",
     tech: ["dbt", "Snowflake", "Airflow", "Docker"],
+    categories: ["Data Engineering", "AWS"],
     link: "https://github.com/srushtigm25/DataFlowX-Modern-ELT-Pipeline-with-dbt-Snowflake-Airflow",
     image: "/images/dataflowx.jpeg"
     },
@@ -42,6 +65,7 @@ export const siteConfig = {
     description:
     "S3→Lambda→Glue→Athena serverless ingestion with cost dashboards & alerts (CloudWatch).",
     tech: ["AWS S3", "Lambda", "Glue", "Athena"],
+    categories: ["Data Engineering", "AWS"],
     link: "https://github.com/srushtigm25/EventFlow-AWS-Serverless-ETL-with-S3-Lambda-Glue-Athena",
     image: "/images/eventflow.jpeg"
     },
@@ -50,6 +74,7 @@ export const siteConfig = {
     description:
     "Multimodal LLM-RAG pipeline that analyzes raw videos to extract scenes, emotions, narrative beats, and outputs timestamped JSON edit/story plans. Includes Shotstack automation, evaluation harness, and serverless orchestration.",
     tech: ["LLM", "RAG", "LangChain", "memories.ai", "Python", "Shotstack", "S3", "SQS"],
+    categories: ["Agentic AI"],
     link: "https://github.com/srushtigm25/LLM-Video-Understanding-Auto-Editing-Agent",
     image: "/images/video-agent.png"
     },
@@ -58,6 +83,7 @@ export const siteConfig = {
     description:
     "End-to-end Retrieval-Augmented Generation pipeline for PDF insights. Includes PDF parsing, text chunking, OpenAI embeddings, Chroma vector store, LangChain retriever, and a Streamlit UI with Docker support.",
     tech: ["LangChain", "ChromaDB", "OpenAI", "Streamlit", "Docker", "Python"],
+    categories: ["Agentic AI"],
     link: "https://github.com/srushtigm25/RAG_Application",
     image: "/images/rag-app.jpeg"
     },
@@ -66,6 +92,7 @@ export const siteConfig = {
     description:
     "AI chatbot using GPT-4 + Google Sheets API for real-time spreadsheet-aware responses. Built with Tkinter UI, supports live queries, error handling, and full Google API authentication workflow.",
     tech: ["Python", "GPT-4", "Google Sheets API", "gspread", "Tkinter"],
+    categories: ["Agentic AI"],
     link: "https://github.com/srushtigm25/Chatbot-with-Google-Sheets-Integration",
     image: "/images/google-sheets-chatbot.jpeg"
       },
@@ -74,9 +101,110 @@ export const siteConfig = {
         description:
           "Event-driven workflow using AWS Lambda, SQS, and DynamoDB. Processes queued messages, triggers Lambda functions, and stores structured results into DynamoDB. Demonstrates scalable serverless microservice design.",
         tech: ["AWS Lambda", "SQS", "DynamoDB", "Python", "Serverless"],
+        categories: ["Data Engineering", "AWS"],
         link: "https://github.com/srushtigm25/aws-serverless-event-driven-app",
         image: "/images/aws-serverless.jpeg"
       },
+      {
+        title: "Cache Controller Design",
+        description:
+          "Designed a 4-way set associative cache controller in Java with 4KB page size and 4GB main memory. Simulates cache reads, misses, and proper memory placement for CPU data access workflows.",
+        tech: ["Java", "Memory Architecture", "Cache Simulation"],
+        categories: ["Java","Software Engineering"],
+        link: "https://github.com/srushtigm25/Cache-Controller-Design",
+        image: "/images/cache-controller.png" // replace with your image
+      },
+      {
+        title: "Stock Trading Python App",
+        description:
+          "Automated stock trading workflow using Python, featuring scheduling, data polling, order execution logic, and environment-based configuration. Demonstrates real-time task automation and script orchestration.",
+        tech: ["Python", "Scheduling", "Automation"],
+        categories: ["Python", "Data Engineering"],
+        link: "https://github.com/srushtigm25/stock_trading_python_app",
+        image: "/images/stock-trading.png"
+      },
+      {
+        title: "Airbnb NYC Price Analysis",
+        description:
+          "Performed exploratory data analysis on Airbnb NYC listings to understand price variation across neighborhoods, room types, availability, and host activity. Includes statistical insights and visualizations.",
+        tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA"],
+        categories: ["Python","Data Analysis"],
+        link: "https://github.com/srushtigm25/Airbnb_Case_Study",
+        image: "/images/airbnb.png"
+      },
+      {
+        title: "A/B Testing & Experiment Analysis",
+        description:
+          "Implemented statistical A/B testing using t-tests, confidence intervals, and effect size measurement. Evaluated two user groups to determine significance and business impact based on performance metrics.",
+        tech: ["Python", "Pandas", "SciPy", "Statistics", "Seaborn"],
+        categories: ["Python","Data Analysis"],
+        link: "https://github.com/srushtigm25/A-B_TESTING_and_ANALYSIS",
+        image: "/images/ab-test.png"
+      },
+      {
+        title: "Pandas EDA & Data Cleaning",
+        description:
+          "Comprehensive practice repository covering essential pandas operations including filtering, aggregations, joins, datetime handling, feature engineering, and exploratory data analysis.",
+        tech: ["Python", "Pandas", "EDA"],
+        categories: ["Python","Data Analysis"],
+        link: "https://github.com/srushtigm25/pandas-eda-and-data-cleaning",
+        image: "/images/pandas-eda.png"
+      },
+      {
+        title: "E-commerce Funnel Analysis",
+        description:
+          "Analyzed multi-category user funnel behavior to uncover friction points, optimize conversion stages, and identify opportunities for improving user engagement and product performance.",
+        tech: ["Python", "Pandas", "Seaborn", "EDA"],
+        categories: ["Python","Data Analysis"],
+        link: "https://github.com/srushtigm25/Ecommerce-Funnel-Analysis",
+        image: "/images/ecommerce.png"
+      },
+      {
+        title: "KPI Dashboard",
+        description:
+          "Developed a performance KPI dashboard to track metrics across business units. Includes trend visualizations, aggregation logic, and automated data refresh pipelines.",
+        tech: ["Python", "Pandas", "Visualization"],
+        categories: ["Python","Data Analysis"],
+        link: "https://github.com/srushtigm25/KPI_Dashboard",
+        image: "/images/kpi-dashboard.png"
+      },
+      {
+        title: "K-Anonymity Data Privacy",
+        description:
+          "Implemented 3-anonymity using generalization and suppression rules to protect sensitive patient data. Ensured k-anonymous compliance while maintaining analytical usefulness.",
+        tech: ["Python", "Privacy", "Generalization"],
+        categories: [ "Python","Software Engineering"],
+        link: "https://github.com/srushtigm25/K-Anonymity",
+        image: "/images/k-anonymity.png"
+      },
+      {
+        title: "Image Captioning with CNN-LSTM",
+        description:
+          "Built an image captioning system using ResNet-152 CNN encoder and LSTM decoder. Trained on image–text pairs using PyTorch, generating natural language captions from images.",
+        tech: ["PyTorch", "CNN", "LSTM", "Deep Learning"],
+        categories: ["Python","Machine Learning"],
+        link: "https://github.com/srushtigm25/Image-captioning-using-deep-learning",
+        image: "/images/image-captioning.png"
+      },
+      {
+        title: "Swift Code Practice",
+        description:
+          "A collection of Swift coding exercises and implementations across algorithms, data structures, and language fundamentals.",
+        tech: ["Swift"],
+        categories: ["Java","Software Engineering"],
+        link: "https://github.com/srushtigm25/swiftcode-srushti",
+        image: "/images/swift.png"
+      },
+      {
+        title: "ToDo App (Django REST API)",
+        description:
+          "RESTful ToDo application built with Django and DRF featuring CRUD APIs, authentication, SQLite database support, and modular backend structure.",
+        tech: ["Python", "Django", "DRF", "SQLite"],
+        categories: ["Python", "Software Engineering"],
+        link: "https://github.com/srushtigm25/ToDo-App--DRF",
+        image: "/images/todo-drf.png"
+      },
+      
     ];
     
     

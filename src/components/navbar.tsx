@@ -1,19 +1,20 @@
+
 "use client";
 
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { AiOutlineMail } from "react-icons/ai";
 
 import {
   AiOutlineHome,
   AiOutlineUser,
   AiOutlineAppstore,
-  AiOutlinePicture,
+  AiOutlineMail,
+  AiOutlineCode,
 } from "react-icons/ai";
+
 import { BsMoonStars, BsSun } from "react-icons/bs";
-import { FaBlog } from "react-icons/fa";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -26,8 +27,7 @@ export default function Navbar() {
     { name: "Home", icon: <AiOutlineHome />, href: "/" },
     { name: "About", icon: <AiOutlineUser />, href: "#about" },
     { name: "Work", icon: <AiOutlineAppstore />, href: "#projects" },
-    // { name: "Blog", icon: <FaBlog />, href: "#blog" },
-    // { name: "Gallery", icon: <AiOutlinePicture />, href: "#gallery" },
+    { name: "Skills", icon: <AiOutlineCode />, href: "#skills" },
     { name: "Contact", icon: <AiOutlineMail />, href: "#contact" },
   ];
 
