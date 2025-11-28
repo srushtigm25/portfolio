@@ -75,13 +75,13 @@ export default function Skills() {
 
         {Object.entries(skills).map(([category, items]) => (
           <div key={category}>
-            <h3 className="text-lg font-semibold text-gray-200 mb-2">{category}</h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">{category}</h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {items.map((skill) => (
                 <div
                   key={skill.name}
-                  className="flex justify-between bg-gray-200 dark:bg-gray-800 px-4 py-2 rounded-md"
+                  className="flex justify-between bg-gray-200 dark:bg-gray-900 px-4 py-2 rounded-md"
                 >
                   <span className="text-gray-800 dark:text-gray-200">
                     {skill.name}
