@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/data";
 
+import { FaLinkedin, FaGithub, FaEnvelope, FaDownload } from "react-icons/fa";
+
 export default function Hero() {
   return (
     <header className="max-w-5xl mx-auto px-6 pt-20 pb-10 transition-colors">
@@ -22,20 +24,52 @@ export default function Hero() {
         {siteConfig.tagline}
       </p>
 
-      {/* Social Links */}
-      <div className="mt-6 flex flex-wrap gap-4 text-sm">
-        <Link href={siteConfig.socials.github} className="underline">
-          GitHub
+      {/* ICONS ROW */}
+      <div className="mt-6 flex items-center gap-6 text-2xl">
+        {/* LinkedIn */}
+        <Link
+          href={siteConfig.socials.linkedin}
+          target="_blank"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
+        >
+          <FaLinkedin />
         </Link>
-        <Link href={siteConfig.socials.linkedin} className="underline">
-          LinkedIn
+
+        {/* GitHub */}
+        <Link
+          href={siteConfig.socials.github}
+          target="_blank"
+          className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition"
+        >
+          <FaGithub />
         </Link>
-        <Link href={siteConfig.socials.resume} className="underline">
-          Resume
+
+        {/* Email */}
+        <Link
+          href={`mailto:${siteConfig.email}`}
+          className="text-gray-700 dark:text-gray-300 hover:text-red-500 dark:hover:text-red-400 transition"
+        >
+          <FaEnvelope />
         </Link>
-        <span className="text-gray-500 dark:text-gray-400">
-          {siteConfig.location}
-        </span>
+      </div>
+
+      {/* DOWNLOAD RESUME BUTTON */}
+      <div className="mt-6">
+        <Link
+          href={siteConfig.socials.resume}
+          download
+          className="
+            inline-flex items-center gap-2 px-6 py-3 
+            rounded-xl border 
+            border-teal-400/50 bg-gray-900 dark:bg-gray-800 
+            text-gray-100 dark:text-gray-100
+            hover:bg-gray-800 dark:hover:bg-gray-700 
+            transition-colors shadow-sm
+          "
+        >
+          <FaDownload className="text-lg" />
+          <span>Download Resume</span>
+        </Link>
       </div>
     </header>
   );

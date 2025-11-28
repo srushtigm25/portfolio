@@ -1,10 +1,10 @@
 // lib/data.ts
 export const siteConfig = {
     name: "Srushti G M",
-    role: "Machine Learning & Data Engineer",
-    tagline: "I build scalable data pipelines & ML systems that drive real impact.",
+    role: "Software • Data • AI Engineer",
+    tagline: "Building intelligent, scalable and user-focused systems.",
     location: "San Jose, CA",
-    email: "srugm25@example.com",
+    email: "srugm25@gmail.com",
     socials: {
     linkedin: "https://www.linkedin.com/in/srushti-gm/",
     github: "https://github.com/srushtigm25",

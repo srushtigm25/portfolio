@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { AiOutlineMail } from "react-icons/ai";
+
 import {
   AiOutlineHome,
   AiOutlineUser,
@@ -25,7 +27,8 @@ export default function Navbar() {
     { name: "About", icon: <AiOutlineUser />, href: "#about" },
     { name: "Work", icon: <AiOutlineAppstore />, href: "#projects" },
     // { name: "Blog", icon: <FaBlog />, href: "#blog" },
-    { name: "Gallery", icon: <AiOutlinePicture />, href: "#gallery" },
+    // { name: "Gallery", icon: <AiOutlinePicture />, href: "#gallery" },
+    { name: "Contact", icon: <AiOutlineMail />, href: "#contact" },
   ];
 
   return (
