@@ -208,32 +208,86 @@ export const siteConfig = {
     ];
     
     
+    // export const experience = [
+    // {
+    // company: "KPMG",
+    // role: "Software/Data Engineer",
+    // period: "Jul 2019 – Jun 2022",
+    // bullets: [
+    // "Built ETL pipelines & SSAS models; automated audits (−40% manual effort).",
+    // "Optimized SQL workloads; cut report latency by ~60% across key dashboards."
+    // ]
+    // },
+    // {
+    // company: "E6 Data",
+    // role: "Product Engineer",
+    // period: "Jun 2022 – Oct 2022",
+    // bullets: [
+    // "Orchestrated Airflow DAGs on AWS EMR/S3; observability with Grafana/Prometheus.",
+    // "Improved distributed query performance; reduced job times by double digits."
+    // ]
+    // },
+    // {
+    // company: "CSU Sacramento (RA/TA)",
+    // role: "Graduate Research/Teaching Assistant",
+    // period: "Aug 2024 – May 2025",
+    // bullets: [
+    // "Sepsis-GNN research on MIMIC-IV; explainability (SHAP) & interactive Gradio UI.",
+    // "Supported deep learning coursework & project mentorship (GNNs/Transformers)."
+    // ]
+    // }
+    // ];
+
     export const experience = [
-    {
-    company: "KPMG",
-    role: "Software/Data Engineer",
-    period: "Jul 2019 – Jun 2022",
-    bullets: [
-    "Built ETL pipelines & SSAS models; automated audits (−40% manual effort).",
-    "Optimized SQL workloads; cut report latency by ~60% across key dashboards."
-    ]
-    },
-    {
-    company: "E6 Data",
-    role: "Product Engineer",
-    period: "Jun 2022 – Oct 2022",
-    bullets: [
-    "Orchestrated Airflow DAGs on AWS EMR/S3; observability with Grafana/Prometheus.",
-    "Improved distributed query performance; reduced job times by double digits."
-    ]
-    },
-    {
-    company: "CSU Sacramento (RA/TA)",
-    role: "Graduate Research/Teaching Assistant",
-    period: "Aug 2024 – May 2025",
-    bullets: [
-    "Sepsis-GNN research on MIMIC-IV; explainability (SHAP) & interactive Gradio UI.",
-    "Supported deep learning coursework & project mentorship (GNNs/Transformers)."
-    ]
-    }
+      
+      {
+        company: "CSU Sacramento – Research & Innovation Dept",
+        role: "Data Analyst",
+        period: "Jan 2024 – May 2025",
+        logo: "/logos/2.png",
+        bullets: [
+          "Developed explainable GNN (Sepsis-GNN) with SHAP; deployed interactive Gradio UI.",
+          "Delivered production-grade data/ML services powering research insights."
+        ],
+      },
+      {
+        company: "CSU Sacramento",
+        role: "Machine Learning Teaching Assistant",
+        period: "Aug 2024 – May 2025",
+        logo: "/logos/2.png", // upload your logo file
+        bullets: [
+          "Led advanced PyTorch/TensorFlow labs on transformer optimization & fine-tuning, mentoring 60+ students.",
+          "Designed curriculum covering cutting-edge generative AI and multimodal LLM advancements with faculty researchers."
+        ],
+      },
+      {
+        company: "Siemens Mobility",
+        role: "Data Operations Intern",
+        period: "May 2024 – Aug 2024",
+        logo: "/logos/1.png",
+        bullets: [
+          "Automated ETL with Alteryx; built supplier analytics dashboards in Tableau.",
+          "Streamlined bid processing and reporting for ops stakeholders."
+        ],
+      },
+      {
+        company: "E6 Data",
+        role: "Data Engineer",
+        period: "Jun 2022 – Oct 2022",
+        logo: "/logos/e6.png", // upload here
+        bullets: [
+          "Built ELT pipelines with Airflow + dbt + Snowflake for analytics workloads.",
+          "Improved query performance & reliability across distributed SQL execution."
+        ],
+      },
+      {
+        company: "KPMG",
+        role: "Software/Data Engineer",
+        period: "Jun 2019 – Jun 2022",
+        logo: "/logos/kpmg.jpeg",
+        bullets: [
+          "Engineered backend automation; integrated SAP/SQL pipelines and SSAS models.",
+          "Accelerated reporting by reducing manual work and improving data freshness."
+        ],
+      },
     ];

@@ -12,6 +12,8 @@ import {
   AiOutlineAppstore,
   AiOutlineMail,
   AiOutlineCode,
+  AiOutlineHistory ,
+
 } from "react-icons/ai";
 
 import { BsMoonStars, BsSun } from "react-icons/bs";
@@ -26,10 +28,12 @@ export default function Navbar() {
   const links = [
     { name: "Home", icon: <AiOutlineHome />, href: "/" },
     { name: "About", icon: <AiOutlineUser />, href: "#about" },
-    { name: "Work", icon: <AiOutlineAppstore />, href: "#projects" },
+    { name: "Experience", icon: <AiOutlineHistory />, href: "#experience" },
+    { name: "Projects", icon: <AiOutlineAppstore />, href: "#projects" },
     { name: "Skills", icon: <AiOutlineCode />, href: "#skills" },
     { name: "Contact", icon: <AiOutlineMail />, href: "#contact" },
   ];
+  
 
   return (
     <motion.nav
