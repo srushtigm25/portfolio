@@ -12,12 +12,6 @@ export const siteConfig = {
     }
     };
     
-    
-    // export const skills = [
-    // "Python", "SQL", "PySpark", "Airflow", "dbt", "Snowflake",
-    // "AWS (S3, Lambda, Glue, Athena)", "Kafka", "Spark",
-    // "LangChain", "RAG", "GNNs", "Transformers"
-    // ];
 
     export const skills = [
         // Languages
@@ -207,37 +201,7 @@ export const siteConfig = {
       
     ];
     
-    
-    // export const experience = [
-    // {
-    // company: "KPMG",
-    // role: "Software/Data Engineer",
-    // period: "Jul 2019 – Jun 2022",
-    // bullets: [
-    // "Built ETL pipelines & SSAS models; automated audits (−40% manual effort).",
-    // "Optimized SQL workloads; cut report latency by ~60% across key dashboards."
-    // ]
-    // },
-    // {
-    // company: "E6 Data",
-    // role: "Product Engineer",
-    // period: "Jun 2022 – Oct 2022",
-    // bullets: [
-    // "Orchestrated Airflow DAGs on AWS EMR/S3; observability with Grafana/Prometheus.",
-    // "Improved distributed query performance; reduced job times by double digits."
-    // ]
-    // },
-    // {
-    // company: "CSU Sacramento (RA/TA)",
-    // role: "Graduate Research/Teaching Assistant",
-    // period: "Aug 2024 – May 2025",
-    // bullets: [
-    // "Sepsis-GNN research on MIMIC-IV; explainability (SHAP) & interactive Gradio UI.",
-    // "Supported deep learning coursework & project mentorship (GNNs/Transformers)."
-    // ]
-    // }
-    // ];
-
+    // experience
     export const experience = [
       
       {
@@ -246,8 +210,8 @@ export const siteConfig = {
         period: "Jan 2024 – May 2025",
         logo: "/logos/2.png",
         bullets: [
-          "Developed explainable GNN (Sepsis-GNN) with SHAP; deployed interactive Gradio UI.",
-          "Delivered production-grade data/ML services powering research insights."
+          "Built star-schema models and automated quality checks for 100K+ IRB records, improving compliance and reliability.",
+          "Created interactive QuickSight/Tableau dashboards, enabling faster data-driven decisions for research teams."
         ],
       },
       {
@@ -266,13 +230,13 @@ export const siteConfig = {
         period: "May 2024 – Aug 2024",
         logo: "/logos/1.png",
         bullets: [
-          "Automated ETL with Alteryx; built supplier analytics dashboards in Tableau.",
-          "Streamlined bid processing and reporting for ops stakeholders."
+          "Automated ETL with Alteryx, built supplier analytics dashboards in Tableau.",
+          "Built Tableau dashboards that improved PO visibility and reduced costs by 40%."
         ],
       },
       {
         company: "E6 Data",
-        role: "Data Engineer",
+        role: "Product Engineer",
         period: "Jun 2022 – Oct 2022",
         logo: "/logos/e6.png", // upload here
         bullets: [
@@ -282,11 +246,11 @@ export const siteConfig = {
       },
       {
         company: "KPMG",
-        role: "Software/Data Engineer",
+        role: "Software Engineer",
         period: "Jun 2019 – Jun 2022",
         logo: "/logos/kpmg.jpeg",
         bullets: [
-          "Engineered backend automation; integrated SAP/SQL pipelines and SSAS models.",
+          "Engineered backend automation, integrated SAP/SQL pipelines and SSAS models.",
           "Accelerated reporting by reducing manual work and improving data freshness."
         ],
       },
