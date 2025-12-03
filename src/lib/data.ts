@@ -226,7 +226,7 @@ export const siteConfig = {
       },
       {
         company: "Siemens Mobility",
-        role: "Data Operations Intern",
+        role: "Data Engineer",
         period: "May 2024 – Aug 2024",
         logo: "/logos/1.png",
         bullets: [
