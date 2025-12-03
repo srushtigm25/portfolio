@@ -237,7 +237,7 @@ export const siteConfig = {
       {
         company: "E6 Data",
         role: "Product Engineer",
-        period: "Jun 2022 – Oct 2022",
+        period: "Jun 2022 – Jul 2023",
         logo: "/logos/e6.png", // upload here
         bullets: [
           "Built ELT pipelines with Airflow + dbt + Snowflake for analytics workloads.",
