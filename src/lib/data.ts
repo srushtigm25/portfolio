@@ -203,7 +203,28 @@ export const siteConfig = {
     
     // experience
     export const experience = [
-      
+      {
+        company: "Code 4 Hood Edu",
+        role: "Software Engineer - Data Platform",
+        period: "May 2025 – Present",
+        logo: "/logos/code 4 hood  (3.5 x 1.5 in).png",
+        bullets: [
+          "Integrated donor, operational, and program management systems via backend workflow automation, improving reporting accuracy by 35%.",
+          "Built API-driven admin dashboards supporting approval workflows, donor tracking, and operational analytics for nonprofit leadership.",
+          "Implemented role-based access control and Azure DevOps deployment pipelines, reducing environment inconsistencies across teams.",
+          "Automated forms processing, scheduled reporting, and operational validation using Python, cutting manual effort by 50%.",
+        ],
+      },
+      {
+        company: "CSU Sacramento",
+        role: "Machine Learning Researcher",
+        period: "May 2025 – May 2026",
+        logo: "/logos/2.png",
+        bullets: [
+          "Designed and benchmarked GNN and transformer architectures for large-scale clinical mortality prediction, achieving state-of-the-art performance on 18K+ patient records.",
+          "Built end-to-end ML pipelines covering data preprocessing, feature engineering, model evaluation, and explainability to support clinical AI research.",
+        ],
+      },
       {
         company: "CSU Sacramento – Research & Innovation Dept",
         role: "Data Analyst",
